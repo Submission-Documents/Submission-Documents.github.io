@@ -1,0 +1,8 @@
+title: "My Github Blog"
+email: you@example.com
+description: >- # this means to fold newlines to spaces
+  A short description of your blog.
+baseurl: "" # no leading slash for user site
+url: "https://your-username.github.io"
+theme: minima
+paginate: 5
