@@ -17,5 +17,31 @@ Extensive real-world experiments demonstrate that TF-VLA achieves robust zero-sh
 Overview
 <figure>
   <img src="{{ '/images/fig-2.png' | relative_url }}" alt="Scenic view of mountains" loading="lazy">
-  <figcaption>Figure 1 ¡ª A scenic mountain view.</figcaption>
+  <figcaption>Figure 1 A scenic mountain view.</figcaption>
 </figure>
+Data Collection
+<div class="video-grid" role="list">
+  <figure class="video-item" role="listitem">
+    <video controls preload="metadata" poster="{{ '/images/grasp_small.png' | relative_url }}" aria-label="Demo video one">
+      <source src="{{ '/videos/Data_Collectgrasp_small.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Video 1 â€” Short demo clip</figcaption>
+  </figure>
+
+  <figure class="video-item" role="listitem">
+    <video controls preload="metadata" poster="{{ '/images/grasp_mid.png' | relative_url }}" aria-label="Demo video two">
+      <source src="{{ '/videos/Data_Collectgrasp_mid.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Video 2 â€” Another short clip</figcaption>
+  </figure>
+
+  <figure class="video-item" role="listitem">
+    <video controls preload="metadata" poster="{{ '/images/grasp_trials_mid.png' | relative_url }}" aria-label="Demo video three">
+      <source src="{{ '/videos/Data_Collectgrasp_trial_mid.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Video 3 â€” Final demo clip</figcaption>
+  </figure>
+</div>
