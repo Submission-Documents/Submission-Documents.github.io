@@ -66,13 +66,14 @@ h3 {
 
 ### Abstract
 
-Deploying robotic systems in unstructured logistic environments is hindered by the challenge of manipulating heterogeneous objects under physical uncertainty. 
-While dual-arm platforms offer the kinematic capacity to handle diverse geometries, existing control paradigms encounter substantial challenges. 
-Reinforcement Learning (RL) policies often suffer from prohibitive sim-to-real gaps, while state-of-the-art Vision-Language-Action (VLA) models struggle with "tactile blindness" in force-aware, dual-arm manipulation tasks due to a lack of force-annotated datasets. 
-To bridge this gap, we propose Virtual Force Grounded Vision-Language-Action model (VFG-VLA), a framework designed to learn force-sensitive manipulation without physical tactile feedback. 
-Our approach introduces a novel data synthesis strategy that utilizes virtual penetration depth as a geometric proxy for contact force, converting low-cost, position-controlled trajectories into force-aware counterparts. 
-Furthermore, we incorporate subtask grounding to enable the model to semantically reason about manipulation progress and modulate compressive force through iterative attempts. 
-Extensive real-world experiments demonstrate that VFG-VLA achieves robust zero-shot generalization, outperforming state-of-the-art baselines by 65% on objects with unseen weights and 17% on unseen geometries.
+Deploying robotic systems in varied logistic environments is hindered by the challenge of manipulating heterogeneous objects under physical uncertainty. 
+While the structure of dual-arm platforms offers the capacity to handle diverse geometries, such as varying weights and sizes, existing learning-based control policies encounter substantial difficulties. 
+Reinforcement Learning (RL) policies often suffer from the "sim-to-real" gaps, which is a long-lasting unsolved issue. 
+Current state-of-the-art Vision-Language-Action (VLA) models struggle with force-aware tasks, mainly due to a lack of datasets collected from expensive teleoperation devices with tactile feedback. 
+To deal with these issues, we propose Virtual Force Grounded Vision-Language-Action model (VFG-VLA), a framework designed to learn force-aware dual-arm manipulation policies with low-cost devices that are tactile-free.
+We introduce a novel data synthesis strategy that uses virtual penetration depth as a geometric proxy for the effort of grasping, converting low-cost, position-controlled trajectories into force-aware counterparts. 
+Furthermore, based on the requirements of logistic tasks, we incorporate subtask grounding to enable the model to be aware of manipulation progress and modulate the effort of grasping through iterative attempts. 
+We conduct real-world experiments and demonstrate that VFG-VLA achieves robust zero-shot generalization, outperforming state-of-the-art baselines by 65\% on objects with unseen weights and 17\% on unseen geometries respectively.
 
 ---
 
