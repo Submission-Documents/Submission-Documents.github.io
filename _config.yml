@@ -1,8 +1,8 @@
-title: "Contact"
-email: xxx@example.com
-description: >- # this means to fold newlines to spaces
-  Demonstration of Experiment Results.
-baseurl: "" # no leading slash for user site
-url: "https://your-username.github.io"
+title: "VFG-VLA" 
+description: >-
+  Demonstration of Experiment Results for Virtual Penetration as a Force Proxy: Generating Synergistic Force-Aware Trajectories for Dual-Arm Manipulation.
+baseurl: ""
+url: "https://Submission-Documents.github.io"
 theme: minima
 paginate: 5
+
