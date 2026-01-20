@@ -108,7 +108,7 @@ Extensive real-world experiments demonstrate that VFG-VLA achieves robust zero-s
   </figure>
 </div>
 
-### Reorient Task
+### Data Collection: Reorient Task
 <div class="video-grid" role="list">
   <figure class="video-item" role="listitem">
     <video controls preload="metadata" poster="{{ '/images/small.png' | relative_url }}" aria-label="Demo video one">
